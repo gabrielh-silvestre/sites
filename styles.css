@@ -104,4 +104,20 @@ section img {
 
 /*terceira parte do site*/
 
+#demonstracao_quartos {
+    /* max-width: 200px; */
+    display: flex;
+    justify-content: center;
+}
 
+#demonstracao_quartos_centralizacao {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 80%;
+}
+
+.descricao_quartos {
+	display: flex;
+	justify-content: center;
+}
