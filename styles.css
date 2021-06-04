@@ -106,8 +106,15 @@ section img {
 
 #demonstracao_quartos {
     display: flex;
+    justify-content: space-around;
 }
 
 .central_img {
     display: flex;
+    width: 31%;
+    height: auto;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(6, 141, 112);
+    border-bottom-width: 2px;
 }
