@@ -164,13 +164,21 @@ iframe {
     display: flex;
     justify-content: space-between;
     width: 40%;
+    height: 150px;
     padding-bottom: 20px;
     text-align: left;
 }
 
 .img_descricao{
     /* width: auto; */
-    height: 105px;
-    max-width: 107px;
+    height: 100%;
+    max-width: 105px;
     /* display: flex; */
+}
+
+.escrita_divisoes {
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+    /* flex-wrap: wrap; */
 }
