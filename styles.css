@@ -182,3 +182,27 @@ iframe {
     padding-right: 15px;
     /* flex-wrap: wrap; */
 }
+
+/* footer (rodapé) */
+
+footer {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    background-color: green;
+    height: 90px;
+    justify-content: space-around;
+}
+
+#rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    margin: auto;
+}
+
+#copyright {
+    /* display: flex; */
+    margin: auto;
+}
