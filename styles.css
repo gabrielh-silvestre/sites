@@ -139,3 +139,38 @@ section img {
 iframe {
     width: 100%;
 }
+
+/*quinta parte do site (sobre)*/
+
+#sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 230px;
+    flex-direction: column;
+    text-align: center;
+    color: #5D595A;
+}
+
+#descricoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.descricoes_individuais {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.img_descricao{
+    /* width: auto; */
+    height: 105px;
+    max-width: 107px;
+    /* display: flex; */
+}
